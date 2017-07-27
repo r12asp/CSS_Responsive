@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <style>
+        body {
+            color: red;
+            font-size: 25px;
+        }
+        
+        .inherit a {
+            color: inherit;
+        }
+        
+        .initial a {
+            color: initial
+        }
+        
+        .unset a {
+            color: unset;
+        }
+    </style>
+    <ul>
+        <li>Default <a href="#">link</a> color</li>
+        <li class="inherit">Inherit the <a href="#">link</a> color</li>
+        <li class="initial">Reset the <a href="#">link</a> color</li>
+        <li class="unset">Unset the <a href="#">link</a> color</li>
+    </ul>
+    <script>
+        var pp = document.querySelector("article");
+        console.log(pp.dataset.colums);
+        console.log(pp.dataset.indexNumber);
+    </script>
+</body>
+
+</html>
